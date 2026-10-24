@@ -1,10 +1,27 @@
-# Project 4: Employee Salary Calculator
+# Employee Salary Calculator
 
-Planned case study. Calculate gross salary from basic pay and allowances, then subtract deductions.
+## Problem statement
+Calculate gross salary from basic pay using illustrative allowances: HRA 20% and DA 10%.
 
-## Documentation checklist
-- [ ] State salary assumptions and example rates
-- [ ] Algorithm, flowchart, and pseudocode
-- [ ] `main.py`
-- [ ] Test cases and output screenshots
-- [ ] Conclusion
+## Objectives and assumptions
+- Practice arithmetic, percentages, validation and formatted output.
+- Inputs are provided in the format shown in the test cases.
+- Any tariff, eligibility threshold, salary allowance or discount is an illustrative classroom assumption, not an official rule.
+
+## How to run
+Run with Python 3:
+
+```bash
+python main.py
+```
+
+## Files
+- `main.py`: Python solution
+- `algorithm.md`: step-by-step algorithm
+- `flowchart.md`: text flowchart
+- `pseudocode.md`: language-independent pseudocode
+- `test_cases.md`: normal, boundary and invalid-input tests
+- `output/`: location for captured output screenshots
+
+## Conclusion
+This case study applies basic Python control flow and data handling to a practical scenario.
