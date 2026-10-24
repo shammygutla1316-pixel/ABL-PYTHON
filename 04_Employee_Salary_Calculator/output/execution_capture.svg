@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="255" viewBox="0 0 1000 255">
+<rect width="1000" height="255" rx="14" fill="#111827"/>
+<rect width="1000" height="42" rx="14" fill="#263244"/>
+<circle cx="24" cy="21" r="6" fill="#f87171"/><circle cx="44" cy="21" r="6" fill="#fbbf24"/><circle cx="64" cy="21" r="6" fill="#4ade80"/>
+<text x="86" y="26" font-family="Arial, sans-serif" font-size="14" fill="#f8fafc">Employee Salary Calculator — Python execution output</text>
+<text x="28" y="69" font-family="Arial, sans-serif" font-size="13" fill="#93c5fd">Test input: Basic salary 10000 | Executed with Python 3 using supplied test inputs</text>
+<text x="28" y="100" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#e8eef7">Enter basic salary (Rs.): 10000</text><text x="28" y="125" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#e8eef7">Basic salary: Rs. 10000.00</text><text x="28" y="150" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#e8eef7">HRA (20%): Rs. 2000.00</text><text x="28" y="175" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#e8eef7">DA (10%): Rs. 1000.00</text><text x="28" y="200" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#e8eef7">Gross salary: Rs. 13000.00</text>
+</svg>
