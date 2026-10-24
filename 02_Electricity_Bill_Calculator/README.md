@@ -1,13 +1,27 @@
-# Project 2: Electricity Bill Calculator
+# Electricity Bill Calculator
 
-Planned case study. Use conditional statements and arithmetic to calculate a bill from units consumed.
+## Problem statement
+Calculate a household electricity bill from units consumed using an illustrative slab tariff.
 
-## Documentation checklist
-- [ ] Problem statement and objectives
-- [ ] Assumptions and tariff slabs approved by faculty
-- [ ] Algorithm, flowchart, and pseudocode
-- [ ] `main.py`
-- [ ] Test cases and actual output screenshots
-- [ ] Conclusion
+## Objectives and assumptions
+- Practice input, numeric conversion, arithmetic and if/elif/else. Rates are sample academic values, not an official utility tariff.
+- Inputs are provided in the format shown in the test cases.
+- Any tariff, eligibility threshold, salary allowance or discount is an illustrative classroom assumption, not an official rule.
 
-The tariff slabs must be clearly stated in the report and should follow faculty instructions.
+## How to run
+Run with Python 3:
+
+```bash
+python main.py
+```
+
+## Files
+- `main.py`: Python solution
+- `algorithm.md`: step-by-step algorithm
+- `flowchart.md`: text flowchart
+- `pseudocode.md`: language-independent pseudocode
+- `test_cases.md`: normal, boundary and invalid-input tests
+- `output/`: location for captured output screenshots
+
+## Conclusion
+This case study applies basic Python control flow and data handling to a practical scenario.
