@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="305" viewBox="0 0 1000 305">
+<rect width="1000" height="305" rx="14" fill="#111827"/>
+<rect width="1000" height="42" rx="14" fill="#263244"/>
+<circle cx="24" cy="21" r="6" fill="#f87171"/><circle cx="44" cy="21" r="6" fill="#fbbf24"/><circle cx="64" cy="21" r="6" fill="#4ade80"/>
+<text x="86" y="26" font-family="Arial, sans-serif" font-size="14" fill="#f8fafc">Number Guessing Game — Python execution output</text>
+<text x="28" y="69" font-family="Arial, sans-serif" font-size="13" fill="#93c5fd">Test input: 20, 40, 37 | Executed with Python 3 using supplied test inputs</text>
+<text x="28" y="100" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#e8eef7">Guess the number from 1 to 100. You have 5 attempts.</text><text x="28" y="125" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#e8eef7">Attempt 1: 20</text><text x="28" y="150" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#e8eef7">Too low.</text><text x="28" y="175" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#e8eef7">Attempt 2: 40</text><text x="28" y="200" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#e8eef7">Too high.</text><text x="28" y="225" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#e8eef7">Attempt 3: 37</text><text x="28" y="250" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#e8eef7">Correct! You guessed the number.</text>
+</svg>
