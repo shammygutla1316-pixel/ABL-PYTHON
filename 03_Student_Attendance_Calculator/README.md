@@ -1,10 +1,27 @@
-# Project 3: Student Attendance Calculator
+# Student Attendance Calculator
 
-Planned case study. Calculate attendance percentage from classes attended and total classes, then check a chosen threshold.
+## Problem statement
+Calculate attendance percentage and determine whether the student meets an illustrative 75% attendance requirement.
 
-## Documentation checklist
-- [ ] Problem statement, objectives, and assumptions
-- [ ] Algorithm, flowchart, and pseudocode
-- [ ] `main.py`
-- [ ] Test cases and output screenshots
-- [ ] Conclusion
+## Objectives and assumptions
+- Practice numeric input, arithmetic, comparisons and nested selection.
+- Inputs are provided in the format shown in the test cases.
+- Any tariff, eligibility threshold, salary allowance or discount is an illustrative classroom assumption, not an official rule.
+
+## How to run
+Run with Python 3:
+
+```bash
+python main.py
+```
+
+## Files
+- `main.py`: Python solution
+- `algorithm.md`: step-by-step algorithm
+- `flowchart.md`: text flowchart
+- `pseudocode.md`: language-independent pseudocode
+- `test_cases.md`: normal, boundary and invalid-input tests
+- `output/`: location for captured output screenshots
+
+## Conclusion
+This case study applies basic Python control flow and data handling to a practical scenario.
