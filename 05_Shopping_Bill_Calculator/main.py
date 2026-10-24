@@ -1,13 +1,23 @@
+# Topics: lists, loops, input/output, arithmetic and if-else.
 prices = []
+valid = True
 for i in range(1, 4):
-    price = float(input(f"Enter price of item {i} (Rs.): "))
+    price = float(input("Enter price of item " + str(i) + " (Rs.): "))
     if price < 0:
         print("Price cannot be negative.")
+        valid = False
         break
     prices.append(price)
-else:
-    subtotal = sum(prices)
-    discount = subtotal * 0.10 if subtotal >= 1000 else 0
-    print(f"Subtotal: Rs. {subtotal:.2f}")
-    print(f"Discount: Rs. {discount:.2f}")
-    print(f"Final amount: Rs. {subtotal - discount:.2f}")
+
+if valid:
+    subtotal = 0
+    for price in prices:
+        subtotal = subtotal + price
+    if subtotal >= 1000:
+        discount = subtotal * 10 / 100
+    else:
+        discount = 0
+    total = subtotal - discount
+    print("Subtotal: Rs.", format(subtotal, ".2f"))
+    print("Discount: Rs.", format(discount, ".2f"))
+    print("Final amount: Rs.", format(total, ".2f"))
