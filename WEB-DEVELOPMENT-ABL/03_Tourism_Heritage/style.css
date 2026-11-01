@@ -1,1 +1,18 @@
-*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;color:#302b25;background:#faf7f1;line-height:1.6}header,footer{background:#593d2b;color:white;text-align:center;padding:22px 6%}header h1{margin:0}nav a{color:white;text-decoration:none;margin:0 12px}nav a:hover{text-decoration:underline}.hero{background:#ead9bd;text-align:center;padding:55px 8%}.hero h2{color:#593d2b;font-size:2rem}main section:not(.hero){max-width:1000px;margin:24px auto;padding:22px;background:white;border:1px solid #e5d8c8;border-radius:8px}main h2{color:#754c2f;margin-top:0}.grid{display:flex;gap:16px}.grid article{flex:1;border:1px solid #e5d8c8;background:#fffaf2;padding:12px}.picture{min-height:105px;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;letter-spacing:2px}.fort{background:#9b7653}.caves{background:#65756a}.temple{background:#b77943}footer{padding:12px}@media(max-width:650px){nav a{display:inline-block;margin:5px 8px}.grid{display:block}.grid article{margin-bottom:14px}main section:not(.hero){margin:14px;padding:17px}.hero{padding:40px 6%}}
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #302b25; background: #faf7f1; line-height: 1.6; }
+.header { background: #593d2b; color: white; text-align: center; padding: 22px 6%; }
+.header h1 { margin: 0; }
+nav a { color: white; text-decoration: none; margin: 0 12px; }
+nav a:hover { text-decoration: underline; }
+.hero { text-align: center; background: #ead9bd; padding: 55px 8%; }
+.hero h2 { color: #593d2b; font-size: 2rem; }
+.section { max-width: 1000px; margin: 24px auto; padding: 22px; background: white; border: 1px solid #e5d8c8; border-radius: 8px; }
+.section h2 { color: #754c2f; margin-top: 0; }
+.grid { display: flex; gap: 16px; }
+.place { flex: 1; border: 1px solid #e5d8c8; background: #fffaf2; padding: 12px; }
+.picture { min-height: 105px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; letter-spacing: 2px; }
+.fort { background: #9b7653; }
+.caves { background: #65756a; }
+.temple { background: #b77943; }
+footer { text-align: center; background: #593d2b; color: white; padding: 12px; }
+@media (max-width: 650px) { nav a { display: inline-block; margin: 5px 8px; } .grid { display: block; } .place { margin-bottom: 14px; } .section { margin: 14px; padding: 17px; } .hero { padding: 40px 6%; } }

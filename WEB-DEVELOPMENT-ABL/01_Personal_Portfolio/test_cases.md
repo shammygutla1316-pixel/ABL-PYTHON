@@ -1,12 +1,12 @@
-# Test Cases – Personal Portfolio
+# Test Cases – Personal Portfolio Website
 
-| No. | Test | Expected Result | Status |
+| Test | Action | Expected result | Status |
 |---|---|---|---|
-| 1 | Open index.html | Portfolio heading and hero appear | Pass |
-| 2 | Click About | About section is reached | Pass |
+| 1 | Open index.html | Portfolio heading and hero section appear | Pass |
+| 2 | Click About | Page moves to About Me section | Pass |
 | 3 | Click Education | Education section is reached | Pass |
-| 4 | Click Skills | Skills list appears | Pass |
-| 5 | Click Contact | Contact details appear | Pass |
-| 6 | View on narrow screen | Sections fit the screen | Pass |
+| 4 | Click Skills | Skills list is displayed | Pass |
+| 5 | Click Contact | Contact details are displayed | Pass |
+| 6 | View at narrow/mobile width | Navigation and sections fit the screen | Pass |
 
-Manual checks for the static HTML page and CSS layout.
+Manual checks are based on the static HTML page and its CSS media rule.

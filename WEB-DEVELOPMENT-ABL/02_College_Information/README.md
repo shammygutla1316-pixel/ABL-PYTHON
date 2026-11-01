@@ -1,7 +1,7 @@
 # College Information Website
 
 ## Problem Statement
-Present college information, departments, courses, facilities, admission guidance and contact details.
+Design a college webpage that presents institutional information, departments, courses, facilities, admission guidance and contact details.
 
 ## Objectives
 - Organize college information into clear sections.
@@ -11,16 +11,16 @@ Present college information, departments, courses, facilities, admission guidanc
 - Adapt the layout for narrow screens.
 
 ## Assumptions
-ABC College and all contact information are sample content.
+ABC College and its contact information are sample content for this assignment.
 
 ## Algorithm
-1. Create the HTML document and connect style.css.
-2. Add the college header and navigation.
+1. Create the HTML document and connect the stylesheet.
+2. Add the college header and navigation bar.
 3. Add the banner and About section.
-4. Add course cards and facilities list.
+4. Add course cards and a facilities list.
 5. Add admission and contact information.
-6. Apply CSS and a small-screen layout rule.
-7. Open the page and test each navigation link.
+6. Apply CSS styling and a small-screen layout rule.
+7. Open the page in a browser and test each navigation link.
 
-## Syllabus Topics
-HTML structure/elements, class attribute, anchor element, lists, CSS syntax, text/background color, font family/size, margin, padding, border, box model and viewport.
+## Syllabus Topics Used
+HTML structure and elements, class attribute, anchor element, lists, CSS syntax, text color, background color, font family, font size, margin, padding, border, box model and viewport.
